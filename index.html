@@ -181,5 +181,39 @@ src="https://www.facebook.com/tr?id=7610854515656876&ev=PageView&noscript=1"
         </div>
     </div>
 
+
+    <!-- Botón con función aleatoria -->
+<a href="javascript:void(0);" class="cta-btn" onclick="openRandomLink()">
+    <span>TOCA ACA Y RECLAMA TU BONO!</span>
+    <img src="whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+
+        <div class="footer">
+            <p style="color: #efb810;">Con tu primer depósito te bonificamos $5.000</p>
+            <h1>Mínimo de Carga $2000</h1>
+            <h1>CARGA Y RETIRA LAS 24HORAS AL INSTANTE</h1>
+        </div>
+    </div>
+
+<script>
+    function openRandomLink() {
+        const links = [
+
+            'https://wa.me/12545275711?text=Hola%20quiero%20mi%20usuario%20y%20mi%20bonificaci%C3%B3n%20de%205000',
+            'https://wa.me/5491127341551?text=Hola%20quiero%20mi%20usuario%20y%20mi%20bonificaci%C3%B3n%20de%205000' 
+
+
+
+
+        ];  
+
+        const randomLink = links[Math.floor(Math.random() * links.length)];
+        window.location.href = randomLink;
+    }
+</script>
+
+
+    
 </body>
 </html>
